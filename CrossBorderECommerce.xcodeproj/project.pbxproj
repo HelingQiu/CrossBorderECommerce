@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D533AA34210E9FEA00699CCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA33210E9FEA00699CCF /* AppDelegate.m */; };
+		D533AA37210E9FEA00699CCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA36210E9FEA00699CCF /* ViewController.m */; };
+		D533AA3A210E9FEB00699CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D533AA38210E9FEB00699CCF /* Main.storyboard */; };
+		D533AA3D210E9FEB00699CCF /* CrossBorderECommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D533AA3B210E9FEB00699CCF /* CrossBorderECommerce.xcdatamodeld */; };
+		D533AA3F210E9FEF00699CCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D533AA3E210E9FEF00699CCF /* Assets.xcassets */; };
+		D533AA42210E9FEF00699CCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D533AA40210E9FEF00699CCF /* LaunchScreen.storyboard */; };
+		D533AA45210E9FEF00699CCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA44210E9FEF00699CCF /* main.m */; };
+		D533AA4F210E9FF000699CCF /* CrossBorderECommerceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA4E210E9FF000699CCF /* CrossBorderECommerceTests.m */; };
+		D533AA5A210E9FF000699CCF /* CrossBorderECommerceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA59210E9FF000699CCF /* CrossBorderECommerceUITests.m */; };
+		D533AA7C210EBA3500699CCF /* CBEBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA7B210EBA3500699CCF /* CBEBaseController.m */; };
+		D533AA7F210EBA5400699CCF /* CBEBaseTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA7E210EBA5400699CCF /* CBEBaseTableController.m */; };
+		D533AA82210EBA7C00699CCF /* CBEBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA81210EBA7C00699CCF /* CBEBaseNavigationController.m */; };
+		D533AA85210EBAA000699CCF /* CBEBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA84210EBAA000699CCF /* CBEBaseTabBarController.m */; };
+		D533AA89210EBED800699CCF /* CBENavigationTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA88210EBED800699CCF /* CBENavigationTitleView.m */; };
+		D533AA90210EC0BF00699CCF /* UIViewController+LS.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA8C210EC0BE00699CCF /* UIViewController+LS.m */; };
+		D533AA91210EC0BF00699CCF /* UIViewController+NavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA8F210EC0BE00699CCF /* UIViewController+NavigationItem.m */; };
+		D533AA95210EC13300699CCF /* UIBarButtonItem+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA94210EC13300699CCF /* UIBarButtonItem+Ex.m */; };
+		D533AA99210EC14A00699CCF /* UINavigationController+LS.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA98210EC14A00699CCF /* UINavigationController+LS.m */; };
+		D533AA9D210EC1A800699CCF /* UILabel+LS.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AA9C210EC1A800699CCF /* UILabel+LS.m */; };
+		D533AAA1210EC1B600699CCF /* UIImageView+LS.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AAA0210EC1B500699CCF /* UIImageView+LS.m */; };
+		D533AAA5210EC1CE00699CCF /* UITableView+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AAA4210EC1CE00699CCF /* UITableView+Ex.m */; };
+		D533AAA8210EE9E300699CCF /* CBELoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D533AAA7210EE9E300699CCF /* CBELoginController.m */; };
+		FDF5A4B46CD0374C791FD8B4 /* libPods-CrossBorderECommerce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FCF579199619921BE0D6CE /* libPods-CrossBorderECommerce.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D533AA4B210E9FF000699CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D533AA27210E9FEA00699CCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D533AA2E210E9FEA00699CCF;
+			remoteInfo = CrossBorderECommerce;
+		};
+		D533AA56210E9FF000699CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D533AA27210E9FEA00699CCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D533AA2E210E9FEA00699CCF;
+			remoteInfo = CrossBorderECommerce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CA5A34FF573BC985E61961C /* Pods-CrossBorderECommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossBorderECommerce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossBorderECommerce/Pods-CrossBorderECommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		D533AA2F210E9FEA00699CCF /* CrossBorderECommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossBorderECommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D533AA32210E9FEA00699CCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D533AA33210E9FEA00699CCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D533AA35210E9FEA00699CCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D533AA36210E9FEA00699CCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D533AA39210E9FEB00699CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D533AA3C210E9FEB00699CCF /* CrossBorderECommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrossBorderECommerce.xcdatamodel; sourceTree = "<group>"; };
+		D533AA3E210E9FEF00699CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D533AA41210E9FEF00699CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D533AA43210E9FEF00699CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D533AA44210E9FEF00699CCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D533AA4A210E9FF000699CCF /* CrossBorderECommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossBorderECommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D533AA4E210E9FF000699CCF /* CrossBorderECommerceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossBorderECommerceTests.m; sourceTree = "<group>"; };
+		D533AA50210E9FF000699CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D533AA55210E9FF000699CCF /* CrossBorderECommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossBorderECommerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D533AA59210E9FF000699CCF /* CrossBorderECommerceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossBorderECommerceUITests.m; sourceTree = "<group>"; };
+		D533AA5B210E9FF000699CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D533AA6D210EAFA900699CCF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D533AA6E210EB5C800699CCF /* Commons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
+		D533AA7A210EBA3500699CCF /* CBEBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBEBaseController.h; sourceTree = "<group>"; };
+		D533AA7B210EBA3500699CCF /* CBEBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBEBaseController.m; sourceTree = "<group>"; };
+		D533AA7D210EBA5400699CCF /* CBEBaseTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBEBaseTableController.h; sourceTree = "<group>"; };
+		D533AA7E210EBA5400699CCF /* CBEBaseTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBEBaseTableController.m; sourceTree = "<group>"; };
+		D533AA80210EBA7C00699CCF /* CBEBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBEBaseNavigationController.h; sourceTree = "<group>"; };
+		D533AA81210EBA7C00699CCF /* CBEBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBEBaseNavigationController.m; sourceTree = "<group>"; };
+		D533AA83210EBAA000699CCF /* CBEBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBEBaseTabBarController.h; sourceTree = "<group>"; };
+		D533AA84210EBAA000699CCF /* CBEBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBEBaseTabBarController.m; sourceTree = "<group>"; };
+		D533AA87210EBED800699CCF /* CBENavigationTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBENavigationTitleView.h; sourceTree = "<group>"; };
+		D533AA88210EBED800699CCF /* CBENavigationTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBENavigationTitleView.m; sourceTree = "<group>"; };
+		D533AA8B210EC0BE00699CCF /* UIViewController+LS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LS.h"; sourceTree = "<group>"; };
+		D533AA8C210EC0BE00699CCF /* UIViewController+LS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LS.m"; sourceTree = "<group>"; };
+		D533AA8E210EC0BE00699CCF /* UIViewController+NavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationItem.h"; sourceTree = "<group>"; };
+		D533AA8F210EC0BE00699CCF /* UIViewController+NavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationItem.m"; sourceTree = "<group>"; };
+		D533AA93210EC13300699CCF /* UIBarButtonItem+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Ex.h"; sourceTree = "<group>"; };
+		D533AA94210EC13300699CCF /* UIBarButtonItem+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Ex.m"; sourceTree = "<group>"; };
+		D533AA97210EC14A00699CCF /* UINavigationController+LS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LS.h"; sourceTree = "<group>"; };
+		D533AA98210EC14A00699CCF /* UINavigationController+LS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LS.m"; sourceTree = "<group>"; };
+		D533AA9B210EC1A800699CCF /* UILabel+LS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LS.h"; sourceTree = "<group>"; };
+		D533AA9C210EC1A800699CCF /* UILabel+LS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LS.m"; sourceTree = "<group>"; };
+		D533AA9F210EC1B500699CCF /* UIImageView+LS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LS.h"; sourceTree = "<group>"; };
+		D533AAA0210EC1B500699CCF /* UIImageView+LS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LS.m"; sourceTree = "<group>"; };
+		D533AAA3210EC1CE00699CCF /* UITableView+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Ex.h"; sourceTree = "<group>"; };
+		D533AAA4210EC1CE00699CCF /* UITableView+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Ex.m"; sourceTree = "<group>"; };
+		D533AAA6210EE9E300699CCF /* CBELoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBELoginController.h; sourceTree = "<group>"; };
+		D533AAA7210EE9E300699CCF /* CBELoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBELoginController.m; sourceTree = "<group>"; };
+		F0FCF579199619921BE0D6CE /* libPods-CrossBorderECommerce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrossBorderECommerce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEF4318B39235BC06E49BC8 /* Pods-CrossBorderECommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossBorderECommerce.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossBorderECommerce/Pods-CrossBorderECommerce.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D533AA2C210E9FEA00699CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF5A4B46CD0374C791FD8B4 /* libPods-CrossBorderECommerce.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533AA47210E9FF000699CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533AA52210E9FF000699CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C59D7BC1D79BF38B48A9BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0FCF579199619921BE0D6CE /* libPods-CrossBorderECommerce.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16616274A9F6511A383510DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CA5A34FF573BC985E61961C /* Pods-CrossBorderECommerce.debug.xcconfig */,
+				FBEF4318B39235BC06E49BC8 /* Pods-CrossBorderECommerce.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D533AA26210E9FEA00699CCF = {
+			isa = PBXGroup;
+			children = (
+				D533AA31210E9FEA00699CCF /* CrossBorderECommerce */,
+				D533AA4D210E9FF000699CCF /* CrossBorderECommerceTests */,
+				D533AA58210E9FF000699CCF /* CrossBorderECommerceUITests */,
+				D533AA30210E9FEA00699CCF /* Products */,
+				16616274A9F6511A383510DA /* Pods */,
+				03C59D7BC1D79BF38B48A9BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D533AA30210E9FEA00699CCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA2F210E9FEA00699CCF /* CrossBorderECommerce.app */,
+				D533AA4A210E9FF000699CCF /* CrossBorderECommerceTests.xctest */,
+				D533AA55210E9FF000699CCF /* CrossBorderECommerceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D533AA31210E9FEA00699CCF /* CrossBorderECommerce */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA32210E9FEA00699CCF /* AppDelegate.h */,
+				D533AA33210E9FEA00699CCF /* AppDelegate.m */,
+				D533AA35210E9FEA00699CCF /* ViewController.h */,
+				D533AA36210E9FEA00699CCF /* ViewController.m */,
+				D533AA6B210EAF3C00699CCF /* Modules */,
+				D533AA6A210EAF3600699CCF /* Public */,
+				D533AA69210EAF2A00699CCF /* Category */,
+				D533AA68210EAF1800699CCF /* CoreData */,
+				D533AA67210EAF0500699CCF /* ThirdLib */,
+				D533AA6C210EAF6E00699CCF /* CommonDefines */,
+				D533AA38210E9FEB00699CCF /* Main.storyboard */,
+				D533AA3E210E9FEF00699CCF /* Assets.xcassets */,
+				D533AA40210E9FEF00699CCF /* LaunchScreen.storyboard */,
+				D533AA43210E9FEF00699CCF /* Info.plist */,
+				D533AA44210E9FEF00699CCF /* main.m */,
+			);
+			path = CrossBorderECommerce;
+			sourceTree = "<group>";
+		};
+		D533AA4D210E9FF000699CCF /* CrossBorderECommerceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA4E210E9FF000699CCF /* CrossBorderECommerceTests.m */,
+				D533AA50210E9FF000699CCF /* Info.plist */,
+			);
+			path = CrossBorderECommerceTests;
+			sourceTree = "<group>";
+		};
+		D533AA58210E9FF000699CCF /* CrossBorderECommerceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA59210E9FF000699CCF /* CrossBorderECommerceUITests.m */,
+				D533AA5B210E9FF000699CCF /* Info.plist */,
+			);
+			path = CrossBorderECommerceUITests;
+			sourceTree = "<group>";
+		};
+		D533AA67210EAF0500699CCF /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		D533AA68210EAF1800699CCF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA3B210E9FEB00699CCF /* CrossBorderECommerce.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D533AA69210EAF2A00699CCF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D533AAA2210EC1CD00699CCF /* UITableView */,
+				D533AA9E210EC1B500699CCF /* UIImageView */,
+				D533AA9A210EC1A800699CCF /* UILabel */,
+				D533AA96210EC14A00699CCF /* UINavigationController */,
+				D533AA92210EC13300699CCF /* UIBarButtonItem */,
+				D533AA8A210EC0BE00699CCF /* UIViewController */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D533AA6A210EAF3600699CCF /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA86210EBEA600699CCF /* CBEUIKit */,
+				D533AA79210EB6CA00699CCF /* Base */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		D533AA6B210EAF3C00699CCF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA74210EB6A900699CCF /* Login */,
+				D533AA6F210EB6A800699CCF /* Register */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D533AA6C210EAF6E00699CCF /* CommonDefines */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA6D210EAFA900699CCF /* PrefixHeader.pch */,
+				D533AA6E210EB5C800699CCF /* Commons.h */,
+			);
+			path = CommonDefines;
+			sourceTree = "<group>";
+		};
+		D533AA6F210EB6A800699CCF /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA70210EB6A800699CCF /* Model */,
+				D533AA71210EB6A800699CCF /* View */,
+				D533AA72210EB6A800699CCF /* ViewController */,
+				D533AA73210EB6A800699CCF /* ViewModel */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		D533AA70210EB6A800699CCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D533AA71210EB6A800699CCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D533AA72210EB6A800699CCF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D533AA73210EB6A800699CCF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D533AA74210EB6A900699CCF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA75210EB6A900699CCF /* Model */,
+				D533AA76210EB6A900699CCF /* View */,
+				D533AA77210EB6A900699CCF /* ViewController */,
+				D533AA78210EB6A900699CCF /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D533AA75210EB6A900699CCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D533AA76210EB6A900699CCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D533AA77210EB6A900699CCF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D533AAA6210EE9E300699CCF /* CBELoginController.h */,
+				D533AAA7210EE9E300699CCF /* CBELoginController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D533AA78210EB6A900699CCF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D533AA79210EB6CA00699CCF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA7A210EBA3500699CCF /* CBEBaseController.h */,
+				D533AA7B210EBA3500699CCF /* CBEBaseController.m */,
+				D533AA7D210EBA5400699CCF /* CBEBaseTableController.h */,
+				D533AA7E210EBA5400699CCF /* CBEBaseTableController.m */,
+				D533AA80210EBA7C00699CCF /* CBEBaseNavigationController.h */,
+				D533AA81210EBA7C00699CCF /* CBEBaseNavigationController.m */,
+				D533AA83210EBAA000699CCF /* CBEBaseTabBarController.h */,
+				D533AA84210EBAA000699CCF /* CBEBaseTabBarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D533AA86210EBEA600699CCF /* CBEUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA87210EBED800699CCF /* CBENavigationTitleView.h */,
+				D533AA88210EBED800699CCF /* CBENavigationTitleView.m */,
+			);
+			path = CBEUIKit;
+			sourceTree = "<group>";
+		};
+		D533AA8A210EC0BE00699CCF /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA8B210EC0BE00699CCF /* UIViewController+LS.h */,
+				D533AA8C210EC0BE00699CCF /* UIViewController+LS.m */,
+				D533AA8D210EC0BE00699CCF /* 导航栏上item */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		D533AA8D210EC0BE00699CCF /* 导航栏上item */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA8E210EC0BE00699CCF /* UIViewController+NavigationItem.h */,
+				D533AA8F210EC0BE00699CCF /* UIViewController+NavigationItem.m */,
+			);
+			path = "导航栏上item";
+			sourceTree = "<group>";
+		};
+		D533AA92210EC13300699CCF /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA93210EC13300699CCF /* UIBarButtonItem+Ex.h */,
+				D533AA94210EC13300699CCF /* UIBarButtonItem+Ex.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		D533AA96210EC14A00699CCF /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA97210EC14A00699CCF /* UINavigationController+LS.h */,
+				D533AA98210EC14A00699CCF /* UINavigationController+LS.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		D533AA9A210EC1A800699CCF /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA9B210EC1A800699CCF /* UILabel+LS.h */,
+				D533AA9C210EC1A800699CCF /* UILabel+LS.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		D533AA9E210EC1B500699CCF /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D533AA9F210EC1B500699CCF /* UIImageView+LS.h */,
+				D533AAA0210EC1B500699CCF /* UIImageView+LS.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		D533AAA2210EC1CD00699CCF /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				D533AAA3210EC1CE00699CCF /* UITableView+Ex.h */,
+				D533AAA4210EC1CE00699CCF /* UITableView+Ex.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D533AA2E210E9FEA00699CCF /* CrossBorderECommerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D533AA5E210E9FF000699CCF /* Build configuration list for PBXNativeTarget "CrossBorderECommerce" */;
+			buildPhases = (
+				EEC707F4374E53D1C29A6572 /* [CP] Check Pods Manifest.lock */,
+				D533AA2B210E9FEA00699CCF /* Sources */,
+				D533AA2C210E9FEA00699CCF /* Frameworks */,
+				D533AA2D210E9FEA00699CCF /* Resources */,
+				936C2A41559F98AFCE8149AB /* [CP] Copy Pods Resources */,
+				31CBC4718190C00DB18D2035 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossBorderECommerce;
+			productName = CrossBorderECommerce;
+			productReference = D533AA2F210E9FEA00699CCF /* CrossBorderECommerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D533AA49210E9FF000699CCF /* CrossBorderECommerceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D533AA61210E9FF000699CCF /* Build configuration list for PBXNativeTarget "CrossBorderECommerceTests" */;
+			buildPhases = (
+				D533AA46210E9FF000699CCF /* Sources */,
+				D533AA47210E9FF000699CCF /* Frameworks */,
+				D533AA48210E9FF000699CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D533AA4C210E9FF000699CCF /* PBXTargetDependency */,
+			);
+			name = CrossBorderECommerceTests;
+			productName = CrossBorderECommerceTests;
+			productReference = D533AA4A210E9FF000699CCF /* CrossBorderECommerceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D533AA54210E9FF000699CCF /* CrossBorderECommerceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D533AA64210E9FF000699CCF /* Build configuration list for PBXNativeTarget "CrossBorderECommerceUITests" */;
+			buildPhases = (
+				D533AA51210E9FF000699CCF /* Sources */,
+				D533AA52210E9FF000699CCF /* Frameworks */,
+				D533AA53210E9FF000699CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D533AA57210E9FF000699CCF /* PBXTargetDependency */,
+			);
+			name = CrossBorderECommerceUITests;
+			productName = CrossBorderECommerceUITests;
+			productReference = D533AA55210E9FF000699CCF /* CrossBorderECommerceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D533AA27210E9FEA00699CCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D533AA2E210E9FEA00699CCF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D533AA49210E9FF000699CCF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D533AA2E210E9FEA00699CCF;
+					};
+					D533AA54210E9FF000699CCF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D533AA2E210E9FEA00699CCF;
+					};
+				};
+			};
+			buildConfigurationList = D533AA2A210E9FEA00699CCF /* Build configuration list for PBXProject "CrossBorderECommerce" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D533AA26210E9FEA00699CCF;
+			productRefGroup = D533AA30210E9FEA00699CCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D533AA2E210E9FEA00699CCF /* CrossBorderECommerce */,
+				D533AA49210E9FF000699CCF /* CrossBorderECommerceTests */,
+				D533AA54210E9FF000699CCF /* CrossBorderECommerceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D533AA2D210E9FEA00699CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D533AA42210E9FEF00699CCF /* LaunchScreen.storyboard in Resources */,
+				D533AA3F210E9FEF00699CCF /* Assets.xcassets in Resources */,
+				D533AA3A210E9FEB00699CCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533AA48210E9FF000699CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533AA53210E9FF000699CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31CBC4718190C00DB18D2035 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrossBorderECommerce/Pods-CrossBorderECommerce-frameworks.sh",
+				"${PODS_ROOT}/NIMSDK/NIMSDK/NIMSDK.framework",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/NIMAVChat.framework",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/NVS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMAVChat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossBorderECommerce/Pods-CrossBorderECommerce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		936C2A41559F98AFCE8149AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CrossBorderECommerce/Pods-CrossBorderECommerce-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/Resources/NMCVideoFilter.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NMCVideoFilter.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossBorderECommerce/Pods-CrossBorderECommerce-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC707F4374E53D1C29A6572 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrossBorderECommerce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D533AA2B210E9FEA00699CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D533AA7F210EBA5400699CCF /* CBEBaseTableController.m in Sources */,
+				D533AA85210EBAA000699CCF /* CBEBaseTabBarController.m in Sources */,
+				D533AA99210EC14A00699CCF /* UINavigationController+LS.m in Sources */,
+				D533AA9D210EC1A800699CCF /* UILabel+LS.m in Sources */,
+				D533AAA5210EC1CE00699CCF /* UITableView+Ex.m in Sources */,
+				D533AA82210EBA7C00699CCF /* CBEBaseNavigationController.m in Sources */,
+				D533AA90210EC0BF00699CCF /* UIViewController+LS.m in Sources */,
+				D533AA89210EBED800699CCF /* CBENavigationTitleView.m in Sources */,
+				D533AA7C210EBA3500699CCF /* CBEBaseController.m in Sources */,
+				D533AA91210EC0BF00699CCF /* UIViewController+NavigationItem.m in Sources */,
+				D533AAA1210EC1B600699CCF /* UIImageView+LS.m in Sources */,
+				D533AA37210E9FEA00699CCF /* ViewController.m in Sources */,
+				D533AA34210E9FEA00699CCF /* AppDelegate.m in Sources */,
+				D533AA95210EC13300699CCF /* UIBarButtonItem+Ex.m in Sources */,
+				D533AA45210E9FEF00699CCF /* main.m in Sources */,
+				D533AAA8210EE9E300699CCF /* CBELoginController.m in Sources */,
+				D533AA3D210E9FEB00699CCF /* CrossBorderECommerce.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533AA46210E9FF000699CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D533AA4F210E9FF000699CCF /* CrossBorderECommerceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D533AA51210E9FF000699CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D533AA5A210E9FF000699CCF /* CrossBorderECommerceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D533AA4C210E9FF000699CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D533AA2E210E9FEA00699CCF /* CrossBorderECommerce */;
+			targetProxy = D533AA4B210E9FF000699CCF /* PBXContainerItemProxy */;
+		};
+		D533AA57210E9FF000699CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D533AA2E210E9FEA00699CCF /* CrossBorderECommerce */;
+			targetProxy = D533AA56210E9FF000699CCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D533AA38210E9FEB00699CCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D533AA39210E9FEB00699CCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D533AA40210E9FEF00699CCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D533AA41210E9FEF00699CCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D533AA5C210E9FF000699CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D533AA5D210E9FF000699CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D533AA5F210E9FF000699CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA5A34FF573BC985E61961C /* Pods-CrossBorderECommerce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CrossBorderECommerce/CommonDefines/PrefixHeader.pch";
+				INFOPLIST_FILE = CrossBorderECommerce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.crossborderecommerce.CrossBorderECommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D533AA60210E9FF000699CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBEF4318B39235BC06E49BC8 /* Pods-CrossBorderECommerce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CrossBorderECommerce/CommonDefines/PrefixHeader.pch";
+				INFOPLIST_FILE = CrossBorderECommerce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.crossborderecommerce.CrossBorderECommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D533AA62210E9FF000699CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossBorderECommerceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.crossborderecommerce.CrossBorderECommerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossBorderECommerce.app/CrossBorderECommerce";
+			};
+			name = Debug;
+		};
+		D533AA63210E9FF000699CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossBorderECommerceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.crossborderecommerce.CrossBorderECommerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossBorderECommerce.app/CrossBorderECommerce";
+			};
+			name = Release;
+		};
+		D533AA65210E9FF000699CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossBorderECommerceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.crossborderecommerce.CrossBorderECommerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossBorderECommerce;
+			};
+			name = Debug;
+		};
+		D533AA66210E9FF000699CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossBorderECommerceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ls.crossborderecommerce.CrossBorderECommerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossBorderECommerce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D533AA2A210E9FEA00699CCF /* Build configuration list for PBXProject "CrossBorderECommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D533AA5C210E9FF000699CCF /* Debug */,
+				D533AA5D210E9FF000699CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D533AA5E210E9FF000699CCF /* Build configuration list for PBXNativeTarget "CrossBorderECommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D533AA5F210E9FF000699CCF /* Debug */,
+				D533AA60210E9FF000699CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D533AA61210E9FF000699CCF /* Build configuration list for PBXNativeTarget "CrossBorderECommerceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D533AA62210E9FF000699CCF /* Debug */,
+				D533AA63210E9FF000699CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D533AA64210E9FF000699CCF /* Build configuration list for PBXNativeTarget "CrossBorderECommerceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D533AA65210E9FF000699CCF /* Debug */,
+				D533AA66210E9FF000699CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D533AA3B210E9FEB00699CCF /* CrossBorderECommerce.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D533AA3C210E9FEB00699CCF /* CrossBorderECommerce.xcdatamodel */,
+			);
+			currentVersion = D533AA3C210E9FEB00699CCF /* CrossBorderECommerce.xcdatamodel */;
+			path = CrossBorderECommerce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D533AA27210E9FEA00699CCF /* Project object */;
+}
