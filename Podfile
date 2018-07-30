@@ -21,6 +21,8 @@ pod 'UIAlertView-Blocks'#提示框拓展
 
 pod 'NIMSDK'#网易云信
 
+pod 'M80AttributedLabel', '~> 1.6.3'
+
 #pod 'UMengAnalytics'#友盟统计
 #pod 'UMengAnalytics'#标准SDK，含IDFA
 #pod 'WechatOpenSDK'
